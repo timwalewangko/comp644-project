@@ -1,0 +1,9 @@
+.build/
+.spark/
+data/
+scaled_datasets/
+processed/
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store
