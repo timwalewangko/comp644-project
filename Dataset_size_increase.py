@@ -93,5 +93,5 @@ for target_mb in target_sizes_mb:
 
 print("\nAll datasets generated!")
 
-gcloud storage cp scaled_datasets/*.csv \
-gs://YOUR_BUCKET/data/
+# gcloud storage cp scaled_datasets/*.csv \
+# gs://YOUR_BUCKET/data/

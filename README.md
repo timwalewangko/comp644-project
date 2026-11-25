@@ -7,7 +7,7 @@ PySpark data processing and scalability experiments on Google Cloud Dataproc. Th
 ## Files
 
 - Tim: [Spark_Scalability.ipynb](Spark_Scalability.ipynb) — processing-only Dataproc experiments, timing tables, graphs, and analysis.
-- Hasmik: [Dataset_size_increase](Dataset_size_increase) — dataset replication and upload notes.
+- Hasmik: [Dataset_size_increase.py](Dataset_size_increase.py) — dataset replication and upload notes.
 - Hasmik: [student_performance_spark.py](student_performance_spark.py) — original preprocessing and model experiment.
 
 The experiment instructions below use the notebook. Hasmik's original files are preserved for reference.
