@@ -1,0 +1,707 @@
+{
+  "study": "workers",
+  "workers": 5,
+  "yarn_vcores": 10,
+  "application_id": "application_1795727087795_0003",
+  "spark_version": "3.5.3",
+  "master": "yarn",
+  "resources": {
+    "spark.executor.instances": "5",
+    "spark.executor.cores": "1",
+    "spark.executor.memory": "4g",
+    "spark.executor.memoryOverhead": "default",
+    "spark.driver.memory": "4096m",
+    "spark.dynamicAllocation.enabled": "false"
+  },
+  "sql": {
+    "spark.sql.shuffle.partitions": "64",
+    "spark.sql.files.maxPartitionBytes": "33554432",
+    "spark.sql.files.minPartitionNum": "2",
+    "spark.sql.adaptive.enabled": "false",
+    "spark.sql.constraintPropagation.enabled": "false"
+  },
+  "worker_nodes": [
+    {
+      "rack": "/default-rack",
+      "state": "RUNNING",
+      "id": "birds-5w-w-0.us-central1-c.c.student-performance-spark.internal:8026",
+      "nodeHostName": "birds-5w-w-0.us-central1-c.c.student-performance-spark.internal",
+      "nodeHTTPAddress": "birds-5w-w-0.us-central1-c.c.student-performance-spark.internal:8042",
+      "lastHealthUpdate": 1795727917542,
+      "version": "3.3.6",
+      "healthReport": "",
+      "numContainers": 1,
+      "usedMemoryMB": 4505,
+      "availMemoryMB": 1639,
+      "usedVirtualCores": 1,
+      "availableVirtualCores": 1,
+      "memUtilization": 31.735159,
+      "cpuUtilization": 1.9993335,
+      "numRunningOpportContainers": 0,
+      "usedMemoryOpportGB": 0,
+      "usedVirtualCoresOpport": 0,
+      "numQueuedContainers": 0,
+      "allocationTags": {},
+      "resourceUtilization": {
+        "nodePhysicalMemoryMB": 2363,
+        "nodeVirtualMemoryMB": 2363,
+        "nodeCPUUsage": 0.03998667001724243,
+        "aggregatedContainersPhysicalMemoryMB": 394,
+        "aggregatedContainersVirtualMemoryMB": 6047,
+        "containersCPUUsage": 0.0
+      },
+      "usedResource": {
+        "memory": 4505,
+        "vCores": 1,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 4505
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 1
+            }
+          ]
+        }
+      },
+      "availableResource": {
+        "memory": 1639,
+        "vCores": 1,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 1639
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 1
+            }
+          ]
+        }
+      },
+      "nodeAttributesInfo": {
+        "nodeAttributeInfo": [
+          {
+            "prefix": "nm.yarn.io",
+            "name": "numAppsWithShuffleData",
+            "type": "STRING",
+            "value": "0"
+          },
+          {
+            "prefix": "nm.yarn.io",
+            "name": "lastShuffleMetricRefreshEpochMillis",
+            "type": "STRING",
+            "value": "1795728006618"
+          },
+          {
+            "prefix": "nm.yarn.io",
+            "name": "totalShuffleData",
+            "type": "STRING",
+            "value": "0"
+          }
+        ]
+      },
+      "totalResource": {
+        "memory": 6144,
+        "vCores": 2,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 6144
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rack": "/default-rack",
+      "state": "RUNNING",
+      "id": "birds-5w-w-1.us-central1-c.c.student-performance-spark.internal:8026",
+      "nodeHostName": "birds-5w-w-1.us-central1-c.c.student-performance-spark.internal",
+      "nodeHTTPAddress": "birds-5w-w-1.us-central1-c.c.student-performance-spark.internal:8042",
+      "lastHealthUpdate": 1795727923982,
+      "version": "3.3.6",
+      "healthReport": "",
+      "numContainers": 2,
+      "usedMemoryMB": 5529,
+      "availMemoryMB": 615,
+      "usedVirtualCores": 2,
+      "availableVirtualCores": 0,
+      "memUtilization": 35.159817,
+      "cpuUtilization": 1.6661114,
+      "numRunningOpportContainers": 0,
+      "usedMemoryOpportGB": 0,
+      "usedVirtualCoresOpport": 0,
+      "numQueuedContainers": 0,
+      "allocationTags": {},
+      "resourceUtilization": {
+        "nodePhysicalMemoryMB": 2618,
+        "nodeVirtualMemoryMB": 2618,
+        "nodeCPUUsage": 0.033322226256132126,
+        "aggregatedContainersPhysicalMemoryMB": 642,
+        "aggregatedContainersVirtualMemoryMB": 8510,
+        "containersCPUUsage": 0.006000000052154064
+      },
+      "usedResource": {
+        "memory": 5529,
+        "vCores": 2,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 5529
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 2
+            }
+          ]
+        }
+      },
+      "availableResource": {
+        "memory": 615,
+        "vCores": 0,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 615
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 0
+            }
+          ]
+        }
+      },
+      "nodeAttributesInfo": {
+        "nodeAttributeInfo": [
+          {
+            "prefix": "nm.yarn.io",
+            "name": "numAppsWithShuffleData",
+            "type": "STRING",
+            "value": "0"
+          },
+          {
+            "prefix": "nm.yarn.io",
+            "name": "lastShuffleMetricRefreshEpochMillis",
+            "type": "STRING",
+            "value": "1795728012902"
+          },
+          {
+            "prefix": "nm.yarn.io",
+            "name": "totalShuffleData",
+            "type": "STRING",
+            "value": "0"
+          }
+        ]
+      },
+      "totalResource": {
+        "memory": 6144,
+        "vCores": 2,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 6144
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rack": "/default-rack",
+      "state": "RUNNING",
+      "id": "birds-5w-w-2.us-central1-c.c.student-performance-spark.internal:8026",
+      "nodeHostName": "birds-5w-w-2.us-central1-c.c.student-performance-spark.internal",
+      "nodeHTTPAddress": "birds-5w-w-2.us-central1-c.c.student-performance-spark.internal:8042",
+      "lastHealthUpdate": 1795727911925,
+      "version": "3.3.6",
+      "healthReport": "",
+      "numContainers": 1,
+      "usedMemoryMB": 4505,
+      "availMemoryMB": 1639,
+      "usedVirtualCores": 1,
+      "availableVirtualCores": 1,
+      "memUtilization": 30.821918,
+      "cpuUtilization": 3.1656117,
+      "numRunningOpportContainers": 0,
+      "usedMemoryOpportGB": 0,
+      "usedVirtualCoresOpport": 0,
+      "numQueuedContainers": 0,
+      "allocationTags": {},
+      "resourceUtilization": {
+        "nodePhysicalMemoryMB": 2295,
+        "nodeVirtualMemoryMB": 2295,
+        "nodeCPUUsage": 0.06331223249435425,
+        "aggregatedContainersPhysicalMemoryMB": 370,
+        "aggregatedContainersVirtualMemoryMB": 6048,
+        "containersCPUUsage": 0.003000000026077032
+      },
+      "usedResource": {
+        "memory": 4505,
+        "vCores": 1,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 4505
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 1
+            }
+          ]
+        }
+      },
+      "availableResource": {
+        "memory": 1639,
+        "vCores": 1,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 1639
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 1
+            }
+          ]
+        }
+      },
+      "nodeAttributesInfo": {
+        "nodeAttributeInfo": [
+          {
+            "prefix": "nm.yarn.io",
+            "name": "numAppsWithShuffleData",
+            "type": "STRING",
+            "value": "0"
+          },
+          {
+            "prefix": "nm.yarn.io",
+            "name": "lastShuffleMetricRefreshEpochMillis",
+            "type": "STRING",
+            "value": "1795728001125"
+          },
+          {
+            "prefix": "nm.yarn.io",
+            "name": "totalShuffleData",
+            "type": "STRING",
+            "value": "0"
+          }
+        ]
+      },
+      "totalResource": {
+        "memory": 6144,
+        "vCores": 2,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 6144
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rack": "/default-rack",
+      "state": "RUNNING",
+      "id": "birds-5w-w-4.us-central1-c.c.student-performance-spark.internal:8026",
+      "nodeHostName": "birds-5w-w-4.us-central1-c.c.student-performance-spark.internal",
+      "nodeHTTPAddress": "birds-5w-w-4.us-central1-c.c.student-performance-spark.internal:8042",
+      "lastHealthUpdate": 1795727913709,
+      "version": "3.3.6",
+      "healthReport": "",
+      "numContainers": 1,
+      "usedMemoryMB": 4505,
+      "availMemoryMB": 1639,
+      "usedVirtualCores": 1,
+      "availableVirtualCores": 1,
+      "memUtilization": 32.63497,
+      "cpuUtilization": 4.331889,
+      "numRunningOpportContainers": 0,
+      "usedMemoryOpportGB": 0,
+      "usedVirtualCoresOpport": 0,
+      "numQueuedContainers": 0,
+      "allocationTags": {},
+      "resourceUtilization": {
+        "nodePhysicalMemoryMB": 2430,
+        "nodeVirtualMemoryMB": 2430,
+        "nodeCPUUsage": 0.08663778007030487,
+        "aggregatedContainersPhysicalMemoryMB": 400,
+        "aggregatedContainersVirtualMemoryMB": 6050,
+        "containersCPUUsage": 0.003000000026077032
+      },
+      "usedResource": {
+        "memory": 4505,
+        "vCores": 1,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 4505
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 1
+            }
+          ]
+        }
+      },
+      "availableResource": {
+        "memory": 1639,
+        "vCores": 1,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 1639
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 1
+            }
+          ]
+        }
+      },
+      "nodeAttributesInfo": {
+        "nodeAttributeInfo": [
+          {
+            "prefix": "nm.yarn.io",
+            "name": "numAppsWithShuffleData",
+            "type": "STRING",
+            "value": "0"
+          },
+          {
+            "prefix": "nm.yarn.io",
+            "name": "lastShuffleMetricRefreshEpochMillis",
+            "type": "STRING",
+            "value": "1795728002680"
+          },
+          {
+            "prefix": "nm.yarn.io",
+            "name": "totalShuffleData",
+            "type": "STRING",
+            "value": "0"
+          }
+        ]
+      },
+      "totalResource": {
+        "memory": 6144,
+        "vCores": 2,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 6144
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rack": "/default-rack",
+      "state": "RUNNING",
+      "id": "birds-5w-w-3.us-central1-c.c.student-performance-spark.internal:8026",
+      "nodeHostName": "birds-5w-w-3.us-central1-c.c.student-performance-spark.internal",
+      "nodeHTTPAddress": "birds-5w-w-3.us-central1-c.c.student-performance-spark.internal:8042",
+      "lastHealthUpdate": 1795727922098,
+      "version": "3.3.6",
+      "healthReport": "",
+      "numContainers": 1,
+      "usedMemoryMB": 4505,
+      "availMemoryMB": 1639,
+      "usedVirtualCores": 1,
+      "availableVirtualCores": 1,
+      "memUtilization": 31.4397,
+      "cpuUtilization": 2.9990003,
+      "numRunningOpportContainers": 0,
+      "usedMemoryOpportGB": 0,
+      "usedVirtualCoresOpport": 0,
+      "numQueuedContainers": 0,
+      "allocationTags": {},
+      "resourceUtilization": {
+        "nodePhysicalMemoryMB": 2341,
+        "nodeVirtualMemoryMB": 2341,
+        "nodeCPUUsage": 0.05998000502586365,
+        "aggregatedContainersPhysicalMemoryMB": 380,
+        "aggregatedContainersVirtualMemoryMB": 6048,
+        "containersCPUUsage": 0.003000000026077032
+      },
+      "usedResource": {
+        "memory": 4505,
+        "vCores": 1,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 4505
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 1
+            }
+          ]
+        }
+      },
+      "availableResource": {
+        "memory": 1639,
+        "vCores": 1,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 1639
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 1
+            }
+          ]
+        }
+      },
+      "nodeAttributesInfo": {
+        "nodeAttributeInfo": [
+          {
+            "prefix": "nm.yarn.io",
+            "name": "numAppsWithShuffleData",
+            "type": "STRING",
+            "value": "0"
+          },
+          {
+            "prefix": "nm.yarn.io",
+            "name": "lastShuffleMetricRefreshEpochMillis",
+            "type": "STRING",
+            "value": "1795728010958"
+          },
+          {
+            "prefix": "nm.yarn.io",
+            "name": "totalShuffleData",
+            "type": "STRING",
+            "value": "0"
+          }
+        ]
+      },
+      "totalResource": {
+        "memory": 6144,
+        "vCores": 2,
+        "resourceInformations": {
+          "resourceInformation": [
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "memory-mb",
+              "resourceType": "COUNTABLE",
+              "units": "Mi",
+              "value": 6144
+            },
+            {
+              "attributes": {},
+              "maximumAllocation": 9223372036854775807,
+              "minimumAllocation": 0,
+              "name": "vcores",
+              "resourceType": "COUNTABLE",
+              "units": "",
+              "value": 2
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "executors": [
+    {
+      "id": "5",
+      "hostPort": "birds-5w-w-0.us-central1-c.c.student-performance-spark.internal:33521",
+      "totalCores": 1,
+      "maxMemory": 2388236697
+    },
+    {
+      "id": "4",
+      "hostPort": "birds-5w-w-4.us-central1-c.c.student-performance-spark.internal:34149",
+      "totalCores": 1,
+      "maxMemory": 2388236697
+    },
+    {
+      "id": "3",
+      "hostPort": "birds-5w-w-2.us-central1-c.c.student-performance-spark.internal:34979",
+      "totalCores": 1,
+      "maxMemory": 2388236697
+    },
+    {
+      "id": "2",
+      "hostPort": "birds-5w-w-1.us-central1-c.c.student-performance-spark.internal:45715",
+      "totalCores": 1,
+      "maxMemory": 2388236697
+    },
+    {
+      "id": "1",
+      "hostPort": "birds-5w-w-3.us-central1-c.c.student-performance-spark.internal:37505",
+      "totalCores": 1,
+      "maxMemory": 2388236697
+    }
+  ]
+}
